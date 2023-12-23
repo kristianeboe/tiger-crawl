@@ -2,64 +2,114 @@ import { Footer } from "./_components/Footer";
 import { Nav } from "./_components/Nav";
 
 const stats = [
-  { label: "Transactions every 24 hours", value: "44 million" },
-  { label: "Assets under holding", value: "$119 trillion" },
-  { label: "New users annually", value: "46,000" },
+  { label: "Happy Crawlers", value: "100+" },
+  { label: "Pubs Visited", value: "2342" },
+  { label: "Spent on alc", value: "$119 trillion " },
 ];
 const values = [
   {
     name: "Be world-class",
     description:
-      "Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.",
+      "Every crawl is a masterpiece, crafted with passion and precision. We strive for excellence in every detail, from the selection of pubs to the stories we share. Our aim is to set the gold standard for pub crawls worldwide, providing an experience that's as enriching as it is exhilarating.",
   },
   {
-    name: "Share everything you know",
+    name: "Celebrate Every Moment",
     description:
-      "Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.",
+      "We believe in savoring every pint and every story. Our crawls are about living in the present, enjoying the laughter, the cheers, and the toasts that make each pub and moment special. We aim for excellence, creating world-class experiences that celebrate the joy of life and the spirit of Oslo.",
   },
   {
     name: "Always learning",
     description:
-      "Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.",
+      "Curiosity is our constant companion. We are perpetually in pursuit of the new and unknown, seeking to expand our understanding of Oslo and the ever-evolving world of pubs and nightlife. Every feedback and story is a lesson, shaping the future of our crawls.",
   },
   {
-    name: "Be supportive",
+    name: "Thirst for Adventure",
     description:
-      "Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.",
+      "Curiosity fuels our journey. We're always on the hunt for the next hidden gem, the next great beer, or the next unforgettable story. Our crawls are about exploring the uncharted and welcoming the unexpected, turning every night into an adventure.",
   },
   {
     name: "Take responsibility",
     description:
-      "Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.",
+      "With great fun comes great responsibility. We are committed to responsible crawling, ensuring that our activities promote safety, respect, and sustainability. Our responsibility extends to the city we love, its residents, and the environment we all share.",
   },
   {
-    name: "Enjoy downtime",
+    name: "In Togetherness, In Cheers",
     description:
-      "Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.",
+      "Our success isn't measured just in the number of pubs visited or drinks had; it's in the laughter shared, the connections made, and the community strengthened. Each crawl is a journey of togetherness, a path we tread with pride and care, making every night a celebration of the Tiger City's spirit.",
   },
 ];
 const team = [
   {
-    name: "Michael Foster",
+    name: "Kristian Elset Bø",
     role: "Co-Founder / CTO",
     imageUrl:
       "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
   },
+  {
+    name: "Moritz Munch",
+    role: "Co-Founder / CTO",
+    imageUrl:
+      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+  },
+  {
+    name: "Nina Elset",
+    role: "Co-Founder / CTO",
+    imageUrl:
+      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+  },
+  // {
+  //   name: "Kyle Mclennan",
+  //   role: "Co-Founder / CTO",
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+  // },
   // More people...
 ];
 const blogPosts = [
   {
-    id: 1,
-    title: "Vel expedita assumenda placeat aut nisi optio voluptates quas",
+    id: 0,
+    title: "Hello world",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
+    date: "Dec 23, 2023",
+    datetime: "2023-12-23",
     author: {
-      name: "Michael Foster",
+      name: "Kristian Elset Bø",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 1,
+    title: "Oslo in January",
+    href: "#",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+    date: "Jan 1, 2024",
+    datetime: "2024-01-01",
+    author: {
+      name: "Moritz Munch",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Our first outing",
+    href: "#",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+    date: "Jan 6, 2024",
+    datetime: "2024-01-06",
+    author: {
+      name: "Kristian Elset Bø",
       imageUrl:
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
@@ -67,7 +117,7 @@ const blogPosts = [
   // More posts...
 ];
 
-export default function Example() {
+export default function HomePage() {
   return (
     <div className="bg-white">
       {/* Header */}
@@ -124,15 +174,13 @@ export default function Example() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                    We’re changing the way people connect.
+                    Oslo's best Pub Crawl
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                    quis cupidatat mollit aute velit. Et labore commodo nulla
-                    aliqua proident mollit ullamco exercitation tempor. Sint
-                    aliqua anim nulla sunt mollit id pariatur in voluptate
-                    cillum. Eu voluptate tempor esse minim amet fugiat veniam
-                    occaecat aliqua.
+                    Venture into the heart of the Tiger City with us as we guide
+                    you through its most iconic and hidden gems. Each step on
+                    our exclusive journey is a blend of culture, history, and
+                    the vibrant pulse of Oslo's pub scene."
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
@@ -197,26 +245,25 @@ export default function Example() {
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-600">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas ac. Diam nulla orci at in viverra
-                  scelerisque eget. Eleifend egestas fringilla sapien.
+                  At TigerCrawl, our mission is to illuminate the vibrant soul
+                  of Oslo, one pub at a time. We are dedicated to crafting
+                  unforgettable journeys through the city's bustling streets and
+                  quiet nooks, where every stop is more than just a drink — it's
+                  an immersion into the local culture and camaraderie.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-700">
                   <p>
-                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                    risus enim. Mattis mauris semper sed amet vitae sed turpis
-                    id. Id dolor praesent donec est. Odio penatibus risus
-                    viverra tellus varius sit neque erat velit. Faucibus commodo
-                    massa rhoncus, volutpat. Dignissim sed eget risus enim.
-                    Mattis mauris semper sed amet vitae sed turpis id.
+                    Our crawls are meticulously designed to celebrate the rich
+                    tapestry of Oslo's history, its spirited inhabitants, and
+                    the hidden tales waiting behind every tavern door.
                   </p>
                   <p className="mt-10">
-                    Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                    duis odio id et. Id blandit molestie auctor fermentum
-                    dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                    varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                    convallis ac tempor et ut. Ac lorem vel integer orci.
+                    We believe in creating connections that last beyond the
+                    night — fostering a community of explorers, locals, and
+                    storytellers bound by their love for adventure and a good
+                    pint. Our commitment is to provide an experience that is
+                    both authentic and exhilarating, capturing the essence of
+                    Oslo's nickname, the Tiger City, in every step and sip.
                   </p>
                 </div>
               </div>
@@ -257,8 +304,10 @@ export default function Example() {
               Our values
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+              At TigerCrawl, we believe that the spirit of adventure and
+              community is at the heart of every memorable experience. Our
+              values are the compass that guides us through every street and
+              story of Oslo's vibrant nights.
             </p>
           </div>
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -305,7 +354,7 @@ export default function Example() {
               />
             </svg>
           </div>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          {/* <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
               Trusted by the world’s most innovative teams
             </h2>
@@ -346,7 +395,7 @@ export default function Example() {
                 height={48}
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Team section */}
